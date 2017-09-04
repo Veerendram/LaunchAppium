@@ -1,6 +1,8 @@
 Launch Appium programmatically ( Work Under Progress)
 =====================================================
 
+<a href="https://codebeat.co/projects/github-com-veerendram-launchappium-master"><img alt="codebeat badge" src="https://codebeat.co/badges/9590f963-bff0-40c1-ad5c-fbca22c697ba" /></a>
+
 ### Windows Support
 - Scripts are based on the installation done on windows
 - Download Appium from https://bitbucket.org/appium/appium.app/downloads/AppiumForWindows.zip
