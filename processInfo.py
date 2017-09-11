@@ -82,6 +82,8 @@ class ProcessInfo(object):
         """
         for p in psutil.process_iter():
             if process_name in p.name():
+                print "Found process with name {}. We are now " \
+                      "terminating this process".format(process_name)
                 self.process_id = p.pid
                 temp = psutil.Process(self.process_id)
                 temp.terminate()

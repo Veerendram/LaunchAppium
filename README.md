@@ -3,19 +3,20 @@ Launch Appium programmatically ( Work Under Progress)
 
 <a href="https://codebeat.co/projects/github-com-veerendram-launchappium-master"><img alt="codebeat badge" src="https://codebeat.co/badges/9590f963-bff0-40c1-ad5c-fbca22c697ba" /></a>
 
-### Windows Support
-- Scripts are based on the installation done on windows
-- Download Appium from https://bitbucket.org/appium/appium.app/downloads/AppiumForWindows.zip
-- Make sure appium.js is latest
+## Appium1.6.X Version
+### Windows
+#### Installation
+Please follow the instructions provided @
+https://github.com/appium/appium/blob/master/docs/en/appium-setup/running-on-windows.md
+- npm works in your command line
+- Install Appium using npm
 
-    ![appium](resources/appium_version.png)
+- Check Installation :
+    -  node.exe available at : C:\Program Files (x86)\Appium\node.exe
+    -   Default location for appium
+    `C:\Users\<windows_login_user>\AppData\Roaming\npm` and
+    `C:\Users\<windows_login_user>\AppData\Roaming\npm\node_modules\appium`
 
-    (1.4.16.1 was latest while documenting)
-#### For Windows installation
-    -  node.exe available at
-    C:\Program Files (x86)\Appium\node.exe
-    -   appium js available at
-    C:\Program Files (x86)\Appium\node_modules\appium\bin
 
 #### Script Usage
 ##### Starting Appium Service
@@ -25,8 +26,12 @@ Launch Appium programmatically ( Work Under Progress)
 ##### Stop Appium Service
     - run `stop_background.bat` which will stop appium service
 
+### Mac
+<B> WORK UNDER PROGRESS </B>
+
 > NOTE:
 TODO:
-1. Add Loggers functionality to trace all appium logs
-2. Add Support to MAC
-3. Fix Bugs and Refactor code to handle background tasks properly
+1. Appium Installer program
+2. Add Loggers functionality to trace all appium logs
+3. Add Support to MAC
+4. Fix Bugs and Refactor code to handle background tasks properly
